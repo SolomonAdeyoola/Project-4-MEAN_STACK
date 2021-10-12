@@ -102,3 +102,18 @@ Created a file named book.js and updated it as below
 ![book.js](./images/bookjs.PNG)
 *book.js file*
 
+### Step 4 – Access the routes with AngularJS
+
+AngularJS provides a web framework for creating dynamic views in your web applications. Here it is used connect the web page with Express and perform actions on our book register.
+
+In the Books directory, created a folder public inside which file-script.js is made and updated and likewise index.html as below.
+
+![script.js](./images/scriptjs.PNG)
+*script.js file*
+
+![index.html](./images/indexhtml.PNG)
+*index.html file*
+
+
+Moved back to the Books directory to start the server
+
