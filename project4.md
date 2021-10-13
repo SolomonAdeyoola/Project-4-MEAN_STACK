@@ -147,8 +147,21 @@ Move back to the Books directory to start the server
 ![server up](./images/ServerUp.PNG)
 *Nodejs server is up*
 
+Enabled port 3300 on server
+
+![SG](./images/SG.PNG)
+*Port 3300 enabled in the Security Group*
+
+Application running
+
+![SG](./images/Frontend.PNG)
+*BooksProject frontend working*
+
+![Console dump](./images/cmd.PNG)
+*Console dump-database*
 
 
+# Project 4 Completed!
 
 
 
