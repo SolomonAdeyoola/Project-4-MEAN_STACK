@@ -114,10 +114,39 @@ In the Books directory, created a folder public inside which file-script.js is m
 ![index.html](./images/indexhtml.PNG)
 *index.html file*
 
-Moved back to the Books directory to start the server
+Move back to the Books directory to start the server
 
 `node server.js`
 
 ![Error](./images/error.PNG)
-*script.js file*
+*Error message-TestEncoder*
+
+Error fixes
+
+Edit file ./Books/node_modules/whatwg-url/dist/encoding.js
+
+`nano encoding.js`
+
+Write this code: 
+
+`"use strict";`
+`var util= require('util');`
+`const utf8Encoder = new util.TextEncoder();`
+`const utf8Decoder = new util.TextDecoder("utf-8", { ignoreBOM: true });`
+
+to replace 
+
+`"use strict";`
+`const utf8Encoder = new TextEncoder();`
+`const utf8Decoder = new TextDecoder("utf-8", { ignoreBOM: true });`
+
+Move back to the Books directory to start the server
+
+`node server.js`
+
+![server up](./images/ServerUp.PNG)
+*Nodejs server is up*
+
+
+
 
