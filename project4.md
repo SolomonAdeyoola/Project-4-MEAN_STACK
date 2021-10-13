@@ -114,6 +114,10 @@ In the Books directory, created a folder public inside which file-script.js is m
 ![index.html](./images/indexhtml.PNG)
 *index.html file*
 
-
 Moved back to the Books directory to start the server
+
+`node server.js`
+
+![Error](./images/error.PNG)
+*script.js file*
 
