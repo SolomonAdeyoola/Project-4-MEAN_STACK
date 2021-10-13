@@ -76,6 +76,7 @@ In the Books directory, Initialize npm project
 Create server.js and update content as below 
 
 ![server.js](./images/serverjs.PNG)
+
 *server.js file*
 
 ### Step 3: Install ExpressJS and set up routes to the server
@@ -91,6 +92,7 @@ In ‘Books’ folder, create a folder named apps
 Create a file named routes.js and update as
 
 ![routes.js](./images/routesjs.PNG)
+
 *routes.js file*
 
 In the ‘apps’ folder, create a folder named models
@@ -100,6 +102,7 @@ In the ‘apps’ folder, create a folder named models
 Created a file named book.js and updated it as below
 
 ![book.js](./images/bookjs.PNG)
+
 *book.js file*
 
 ### Step 4 – Access the routes with AngularJS
@@ -120,6 +123,7 @@ Move back to the Books directory to start the server
 `node server.js`
 
 ![Error](./images/error.PNG)
+
 *Error message-TestEncoder*
 
 Error fixes
@@ -146,19 +150,23 @@ Move back to the Books directory to start the server
 `node server.js`
 
 ![server up](./images/ServerUp.PNG)
+
 *Nodejs server is up*
 
 Enabled port 3300 on server
 
 ![SG](./images/SG.PNG)
+
 *Port 3300 enabled in the Security Group*
 
 Application running
 
 ![SG](./images/Frontend.PNG)
+
 *BooksProject frontend working*
 
 ![Console dump](./images/cmd.PNG)
+
 *Console dump-database*
 
 
