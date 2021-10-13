@@ -109,6 +109,7 @@ AngularJS provides a web framework for creating dynamic views in your web applic
 In the Books directory, created a folder public inside which file-script.js is made and updated and likewise index.html as below.
 
 ![script.js](./images/scriptjs.PNG)
+
 *script.js file*
 
 ![index.html](./images/indexhtml.PNG)
